@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.2.10"
+  },
+  "name": "tiktok-mass-report-bot",
+  "version": "1.2.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzik",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lorenzik/TikTok-Mass-Report-Bot.git"
+  },
+  "keywords": [
+    "tiktok",
+    "tiktok-report",
+    "tiktok-bulk-report"
+  ],
+  "bugs": {
+    "url": "https://github.com/Lorenzik/TikTok-Mass-Report-Bot/issues"
+  },
+  "homepage": "https://github.com/Lorenzik/TikTok-Mass-Report-Bot#readme",
+  "description": ""
+}
