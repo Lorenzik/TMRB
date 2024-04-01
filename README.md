@@ -14,4 +14,7 @@ Made by: Lorenzik
 ![tutorial](https://cdn.discordapp.com/attachments/984547587904372806/1034532886369542277/tutorial_2.gif)
 
 # +5.000 reports in less than minute
-![tmrb](https://cdn.discordapp.com/attachments/984931450723926066/1027562704006815745/unknown.png)
+![tmrb](https://cdn.discordapp.com/attachments/984931450723926066/1027562704006815745/unknown.png)  git clone https://github.com/Lorenzik/TikTok-Mass-Report-Bot
+  cd TMRB
+  npm i
+  node .majdafn@teml.net
