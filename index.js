@@ -6,7 +6,7 @@ import gradient from 'gradient-string'
 import readline from 'readline'
 
 process.stdout.write(
-  String.fromCharCode(27) + "]0;" + `TikTok Mass Report Bot | Reports: 0 | Speed: 0/m` + String.fromCharCode(7)
+  String.fromCharCode(27) + "]0;" + `TikTok Mass Report Bot | Reports: 10000| Speed: 1/m` + String.fromCharCode(7)
 );
 
 console.error = function() {}
@@ -25,7 +25,7 @@ function ascii() {
   `)
   console.log(ascii)
   console.log(chalk.grey('----------------------------------------------------------------------------------------------------------------------'))
-  console.log(chalk.white('    https://github.com/Lorenzik/TMRB'),chalk.grey(" | "),chalk.white('https://github.com/Lorenzik/TMRB'),chalk.grey(" | "),chalk.white('https://github.com/Lorenzik/TMRB'),)
+  console.log(chalk.white('    https://https://www.tiktok.com/@zeini334?is_from_webapp=1&sender_device=pc'),chalk.grey(" | "),chalk.white('https://https://www.tiktok.com/@zeini334?is_from_webapp=1&sender_device=pc'),chalk.grey(" | "),chalk.white('https://https://www.tiktok.com/@zeini334?is_from_webapp=1&sender_device=pc'),)
   console.log(chalk.grey('----------------------------------------------------------------------------------------------------------------------\n'))
 }
 
@@ -40,7 +40,7 @@ rl.question(`${chalk.gray(`${new Date().toLocaleTimeString()} `) + chalk.grey(`[
 
   ascii()
 
-  var reportCount = 1, reportsPerSecond = 0
+  var reportCount = 1000, reportsPerSecond = 10
   var text = fs.readFileSync('proxies.txt','utf8')
   var proxies = text.split(/\r?\n/)
 
@@ -63,7 +63,7 @@ setInterval(() => {
     process.stdout.write(
       String.fromCharCode(27) + "]0;" + `TikTok Mass Report Bot | Reports: ${reportCount} | Speed: ${reportsPerSecond*6}/m` + String.fromCharCode(7)
     );
-    reportsPerSecond = 0
+    reportsPerSecond = 1000
   }, 10000);
 
 
